@@ -1,0 +1,41 @@
+.container{
+    margin: auto;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    background: #283c86;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.container-buttons{
+    margin: auto;
+    padding: 20px;
+    
+}
+
+.posiciones{
+    width: 150px;
+    height: 150px;
+    margin: 1px;
+}
+
+.posiciones:hover{
+    background-color: #ffd046;
+}
+
+.colorplayer2:hover{
+    background-color: #34676b;
+}
+
+.puntos{
+    width: 200px;
+    height: 80px;
+    /* border: 1px black solid; */
+    float: left;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
