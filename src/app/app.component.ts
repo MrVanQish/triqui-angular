@@ -27,17 +27,23 @@ export class AppComponent {
   valorArray(n : number): void{
 
     if(this.contadorJugador % 2 == 0){
-        
-      this.tableroTriqui.posiciones[n] = 2;
-        this.player()
-        this.boolplayer = false;
+
+        if(this.tableroTriqui.posiciones[n] == 0){
+            this.tableroTriqui.posiciones[n] = 2;
+            this.player()
+            this.boolplayer = false;
+        }
+      
 
     }else{
 
-        this.tableroTriqui.posiciones[n] = 1;
-        this.player();
-        this.boolplayer = true;
-        
+        if(this.tableroTriqui.posiciones[n] == 0){
+
+            this.tableroTriqui.posiciones[n] = 1;
+            this.player();
+            this.boolplayer = true;
+            
+        }
     
 
     }
